@@ -12,9 +12,7 @@
                                  check-call]]
    [speculative.core :as c]
    [speculative.specs :as ss]
-   [speculative.test-utils :refer [check planck-env?]]
-   ;; included for self-hosted cljs
-   [workarounds-1-10-439.core]))
+   [speculative.test-utils :refer [check planck-env?]]))
 
 ;; sorted in order of appearance in
 ;; https://github.com/clojure/clojure/blob/master/src/clj/clojure/core.clj

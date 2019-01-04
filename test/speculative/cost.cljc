@@ -7,7 +7,6 @@
    [clojure.pprint :as pprint]
    [clojure.spec.alpha :as s]
    [clojure.spec.test.alpha :as stest]
-   [workarounds-1-10-439.core]
    #?(:clj [taoensso.tufte :as tufte :refer [defnp p profiled profile]]
       :cljs [taoensso.tufte :as tufte :refer-macros [defnp p profiled profile]])
    #?(:clj [net.cgrand.macrovich :as macros]))

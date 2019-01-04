@@ -3,9 +3,9 @@
  :aliases
  {:test {:extra-paths ["test"]
          :extra-deps {org.clojure/clojure {:mvn/version "1.10.0"}
-                      org.clojure/clojurescript {:mvn/version "1.10.439"}
-                      mfikes/workarounds-1.10.439 {:git/url "https://github.com/mfikes/workarounds-1.10.439"
-                                                   :sha "a559201602fc6a21701479b83086d76bd5ed09eb"}
+                      org.clojure/clojurescript #_{:mvn/version "1.10.439"}
+                      {:git/url "https://github.com/clojure/clojurescript"
+                       :sha "731be5e0916ad8d619c302bfc9b985c4d10daa8d"}
                       org.clojure/test.check {:mvn/version "RELEASE"}
                       respeced {:git/url "https://github.com/borkdude/respeced"
                                 :sha "4e2100d67e7a0d782917102d2362e3ebe0d5e957"}}}
